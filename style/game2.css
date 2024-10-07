@@ -1,0 +1,97 @@
+.Contenedor{
+    margin-top: 100px;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+& .titulo{
+    grid-column: 2;
+    grid-row: 1;
+}
+    & .nombre{
+        grid-column: 2;
+        grid-row: 2;
+        margin: 10px;
+        font-family: arial black;
+    }
+    & .txtnombre{
+        grid-column: 2;
+        grid-row: 3;
+        margin: 10px;
+        height: 20px;
+    }
+& .empezar{
+    background-color: #52D8D1;
+    grid-column: 2;
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 100px;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+& .jugador{
+    grid-column: 2;
+    grid-row: 5;
+    margin: 20px;
+}
+& .img-derecha{
+    grid-column: 3;
+    grid-row: 5;
+}
+& .img-izquierda{
+    grid-column: 1;
+    grid-row: 5;
+}
+}
+
+.Contenedor2{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    margin: 20px;
+    & .titulo2{
+        font-family: arial black;
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    & .piedra{
+        grid-column: 1;
+        grid-row: 2;
+        background-image: url('../img/img-game2/stone.png');
+        width: 70px;
+        height: 70px;
+        margin: 10px;
+    }
+    & .papel{
+        grid-column: 2;
+        grid-row: 2;
+        background-image: url('../img/img-game2/paper.png');
+        width: 70px;
+        height: 70px;
+        margin: 10px;
+    }
+    & .tijera{
+        grid-column: 3;
+        grid-row: 2;
+        background-image: url('../img/img-game2/scissor.png');
+        width: 70px;
+        height: 70px;
+        margin: 10px;
+    }
+    & .definir{
+        grid-column: 2;
+        grid-row: 3;
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        margin: 20px;
+     } 
+       & .img-fondo{
+        grid-column: 2;
+        grid-row: 4;
+        }
+}
+
+
+    
+    

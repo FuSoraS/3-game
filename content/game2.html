@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/game2.css">
+    <title>Piedra, papel o tijera</title>
+</head>
+<body>
+    <div class="Contenedor">
+        <h2 class="titulo">Ingrese su Nombre</h2>
+        <label class="nombre" for="jd">Nombre: </label>
+        <input class="txtnombre" type="text" id="jd">
+        <button class="empezar" onclick="nombres()"> Empezar</button>
+        <br>
+        <div class="jugador" id="mostrar"></div>
+        <br>
+        <img class="img-derecha" src="../img/img-game2/foto-costado1.png">
+        <img class="img-izquierda" src="../img/img-game2/foto-costado2.png">
+        
+    </div>
+    <div class="Contenedor2">
+        <H2 class="titulo2">Juegos</H2>
+        <br>
+        <button class="piedra" onclick="piedra()"></button>
+        <button class="papel" onclick="papel()"></button>
+        <button class="tijera" onclick="tijera()"></button> 
+        <div class="definir" id="resultado"></div>
+        <img class="img-fondo" src="../img/img-game2/foto-inferior.png">
+    </div>
+
+    <script src="../js/game2.js"></script>
+  
+</body>
+</html>

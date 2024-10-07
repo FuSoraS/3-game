@@ -1,0 +1,47 @@
+header {
+    display: flex;
+    margin: 15px 0 0 20px;
+
+    & .header-title {
+        display: inline;
+        margin-left: 10px;
+    }
+}
+main {
+    & .main-title {
+        font-size: 1.5em;
+        color: #000;
+        text-align: center; 
+    }
+    & .card-container {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+
+        & .bg {
+            margin: 20px;
+            width: 200px;
+            height: 100px;
+            display: inline;
+            background-color: #7BFDE3;
+            align-content: center;
+            transition-property: padding, margin, color;
+            transition-duration: 0.5s;
+            transition-timing-function: ease-in;
+            border-radius: 10px;
+            &:hover {
+                margin: 10px;
+                padding: 10px;
+                background-color: #52D8D3;
+            }
+
+            & .link-game {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
+

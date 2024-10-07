@@ -1,0 +1,72 @@
+.main-container {
+     display: grid; 
+     grid-template-columns: 2;
+     grid-template-rows: 2;
+    justify-items: center;
+    align-items: baseline;
+    justify-content: center;
+    grid-template-columns: 300px 200px;
+    vertical-align: center;
+
+    & .input {
+        grid-column: 2;
+        grid-row: 3;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    & .titulo{
+        grid-column: 2;
+        grid-row: 2;
+        font-family: arial black ;
+    }
+
+    & .subtitle-tip {
+        grid-column: 2;
+        grid-row: 4;
+        font-family: Arial Bold;
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    & .paragraph-tip {
+        grid-column: 2;
+        grid-row: 5;
+        margin: 0;
+    }
+    & .button-submit {
+        background-color: #52D8D1;
+        grid-column: 2;
+        margin-top: 20px;
+        width: 100px;
+        border-radius: 100px;
+        padding: 10px 20px;
+        border: 1px solid black;
+    }
+    .subtitle-try {
+        grid-column: 3;
+        grid-row: 2;
+        font-family: algerian;
+    }
+    .number-try {
+        grid-column: 3;
+        grid-row: 3;
+    }
+    & .logo-interrogante{
+        grid-column: 2;
+        margin-left: 100px ;
+        margin: 10px;
+        } 
+& .img-inferior{
+    grid-column: 1;
+    grid-row: 3;
+width: 30%;
+    }
+    & .img-inferior2{
+        grid-column: 4;
+        grid-row: 3;
+    width: 70%;
+    }
+}
+
+
