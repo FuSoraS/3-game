@@ -1,7 +1,7 @@
 .main-container {
-     display: grid; 
-     grid-template-columns: 2;
-     grid-template-rows: 2;
+    display: grid; 
+    grid-template-columns: 2;
+    grid-template-rows: 2;
     justify-items: center;
     align-items: baseline;
     justify-content: center;
@@ -35,12 +35,9 @@
         margin: 0;
     }
     & .button-submit {
-        background-color: #52D8D1;
         grid-column: 2;
         margin-top: 20px;
         width: 100px;
-        border-radius: 100px;
-        padding: 10px 20px;
         border: 1px solid black;
     }
     .subtitle-try {
@@ -57,15 +54,15 @@
         margin-left: 100px ;
         margin: 10px;
         } 
-& .img-inferior{
-    grid-column: 1;
-    grid-row: 3;
-width: 30%;
-    }
+    & .img-inferior{
+        grid-column: 1;
+        grid-row: 3;
+        width: 30%;
+        }
     & .img-inferior2{
         grid-column: 4;
         grid-row: 3;
-    width: 70%;
+        width: 70%;
     }
 }
 

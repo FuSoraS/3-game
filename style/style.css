@@ -1,5 +1,14 @@
+:root {
+    --color-cyan: #52D8D3;
+    --color-light-cyan: #B2F6F3;
+}
 body {
     margin: 0;
     font-family: sans-serif;
     background-color: #F2F2EC;
+}
+.button {
+    background-color: var(--color-cyan);
+    padding: 10px 20px;
+    border-radius: 100px;
 }

@@ -1,7 +1,4 @@
-:root {
-    --color-cyan: #52D8D3;
-    --color-light-cyan: #B2F6F3;
-}
+
 .container-image {
     display: flex;
     justify-content: center;
