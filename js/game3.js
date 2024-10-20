@@ -28,9 +28,8 @@ buttonSubmit.addEventListener("click", () => {
 function createRandomNum() {
   // random number
   numRandom = Math.floor(Math.random() * 100) + 1;
-  console.log(numRandom);
 }
 function addTry() {
   numberTry.textContent = `${tryNum}`;
-  tryNum += 1;
+  tryNum ++;
 }
