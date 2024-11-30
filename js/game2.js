@@ -7,35 +7,35 @@ function nombres(){
     const nombre = document.getElementById("jd").value;
     document.getElementById("mostrar").innerText= "El Jugador se llama: "+nombre;
 }
-
+const result = document.getElementById('result');
 //Al elegir uno de los tres tener una probabilidad aletoria de poder ganar perder o empatar
 function piedra(){
     createRandomNum();
     if(numAletorio === 1){
-        document.getElementById("resultado").innerText = "Empate los dos elegieron piedra";
+        result.innerText = "Empate los dos elegieron piedra";
     }else if(numAletorio === 2){
-        document.getElementById("resultado").innerText = "Perdiste, el contrario elegio papel";
+        result.innerText = "Perdiste, el contrario elegio papel";
     }else{
-        document.getElementById("resultado").innerText = "Ganaste, el contrario eligio tijera";
+        result.innerText = "Ganaste, el contrario eligio tijera";
     }
 }
 function papel(){
     createRandomNum();
     if(numAletorio == 1){
-        document.getElementById("resultado").innerText = "Ganaste, el contrario eligio piedra";
+        result.innerText = "Ganaste, el contrario eligio piedra";
     }else if(numAletorio === 2){
-        document.getElementById("resultado").innerText = "Empate los dos elegieron papel";
+        result.innerText = "Empate los dos elegieron papel";
     }else{
-        document.getElementById("resultado").innerText = "Perdiste, el contrario elegio tijera";
+        result.innerText = "Perdiste, el contrario elegio tijera";
     }
 }
  function tijera(){
     createRandomNum();
     if(numAletorio === 1){
-        document.getElementById("resultado").innerText = "Perdiste, el contrario elegio piedra";
+        result.innerText = "Perdiste, el contrario elegio piedra";
     }else if(numAletorio === 2){
-        document.getElementById("resultado").innerText = "Ganaste, el contrario eligio papel";
+        result.innerText = "Ganaste, el contrario eligio papel";
     }else{
-        document.getElementById("resultado").innerText = "Empate los dos elegieron tijera";
+        result.innerText = "Empate los dos elegieron tijera";
     }
  }

@@ -1,10 +1,10 @@
-.Contenedor{
+.container{
     margin-top: 100px;
     display: grid;
     justify-items: center;
     justify-content: center;
 
-    & .titulo{
+    & .title{
         grid-column: 2;
         grid-row: 1;
     }
@@ -14,21 +14,26 @@
         margin: 10px;
         font-family: arial black;
     }
-    & .txtnombre{
+    & .input-name{
         grid-column: 2;
         grid-row: 3;
         margin: 10px;
         height: 20px;
     }
-& .empezar{
-    background-color: #52D8D1;
-    grid-column: 2;
-    margin-top: 10px;
-    width: 100px;
-    border-radius: 100px;
-    padding: 10px 20px;
-    border: 1px solid black;
-}
+    & .btn-save{
+        background-color: #52D8D1;
+        grid-column: 2;
+        margin-top: 10px;
+        width: 100px;
+        border-radius: 100px;
+        padding: 10px 20px;
+        border: 1px solid black;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
     & .jugador{
         grid-column: 2;
         grid-row: 5;
@@ -44,13 +49,13 @@
     }
 }
 
-.Contenedor2{
+.container-second{
     display: grid;
     justify-items: center;
     justify-content: center;
     margin: 20px;
-    & .titulo2{
-        font-family: arial black;
+    
+    & .title-second{
         grid-column: 2;
         grid-row: 1;
     }
@@ -88,8 +93,8 @@
         margin: 20px;
      } 
     & .img-fondo{
-    grid-column: 2;
-    grid-row: 4;
+        grid-column: 2;
+        grid-row: 4;
     }
 }
 
