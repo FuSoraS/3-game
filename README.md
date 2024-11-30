@@ -1,4 +1,4 @@
-# Pagina con 3 juego muy basicos
-Un juego de memorisar imagenes, una juego de un numero adivinar un numero aleatorio y un juego de Piedra, papel y tijera.
+# Página con 3 juegos básicos
+Un juego de memorizar imágenes, un juego de adivinar un número aleatorio y el juego de piedra, papel y tijera.
 
-Hecho junto a depurator21Js [Github](https://github.com/depurator21Js)
+Hecho junto a depurator21Js [GitHub](https://github.com/depurator21Js)
