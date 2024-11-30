@@ -12,22 +12,22 @@
         grid-column: 2;
         grid-row: 2;
         margin: 10px;
-        font-family: arial black;
     }
     & .input-name{
         grid-column: 2;
         grid-row: 3;
-        margin: 10px;
-        height: 20px;
+        padding: 5px 3px;
+        border-radius: 7px;
     }
     & .btn-save{
         background-color: #52D8D1;
+        font-weight: bold;
         grid-column: 2;
         margin-top: 10px;
         width: 100px;
         border-radius: 100px;
         padding: 10px 20px;
-        border: 1px solid black;
+        border: 1px solid #000;
         transition: transform 0.3s ease;
 
         &:hover {
@@ -59,45 +59,37 @@
         grid-column: 2;
         grid-row: 1;
     }
-
+    & .btn-choose {
+        width: 70px;
+        height: 70px;
+        margin: 10px;
+    }
     & .piedra{
         grid-column: 1;
         grid-row: 2;
         background-image: url('../img/img-game2/stone.png');
-        width: 70px;
-        height: 70px;
-        margin: 10px;
+
     }
     & .papel{
         grid-column: 2;
         grid-row: 2;
         background-image: url('../img/img-game2/paper.png');
-        width: 70px;
-        height: 70px;
-        margin: 10px;
     }
     & .tijera{
         grid-column: 3;
         grid-row: 2;
         background-image: url('../img/img-game2/scissor.png');
-        width: 70px;
-        height: 70px;
-        margin: 10px;
     }
-    & .definir{
-        grid-column: 2;
-        grid-row: 3;
-        display: flex;
-        justify-items: center;
-        justify-content: center;
-        margin: 20px;
-     } 
+}
+.definir{
+    text-align: center;
+    margin: 20px;
+ } 
+ .container-third {
+    text-align: center;
+
     & .img-fondo{
         grid-column: 2;
         grid-row: 4;
     }
 }
-
-
-    
-    
