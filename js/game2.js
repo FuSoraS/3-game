@@ -5,7 +5,7 @@ function createRandomNum() {
 function nombres(){
     //Mostrar el nombre del jugador
     const nombre = document.getElementById("jd").value;
-    document.getElementById("mostrar").innerText= "El Jugador se llama: "+nombre;
+    document.getElementById('show').innerText= "El Jugador se llama: "+nombre;
 }
 const result = document.getElementById('result');
 //Al elegir uno de los tres tener una probabilidad aletoria de poder ganar perder o empatar
