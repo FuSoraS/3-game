@@ -25,7 +25,9 @@
     display: flex;
     justify-content: center;
 
-    & .button-nevel {
+    & .button-level__link {
+        text-decoration: none;
+        color: #000;
         width: 200px;
         margin: 20px 10px;
         text-align: center;
@@ -38,10 +40,6 @@
 
         &:hover {
             background-color: var(--color-cyan);
-        }
-        & .button-level__link{
-            text-decoration: none;
-            color: #000;
         }
     }
 }
