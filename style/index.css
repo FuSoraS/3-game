@@ -20,7 +20,9 @@ main {
         flex-wrap: wrap;
         margin-top: 50px;
 
-        & .bg {
+        & .link-game {
+            text-decoration: none;
+            color: black;
             margin: 20px;
             width: 200px;
             height: 100px;
@@ -32,11 +34,6 @@ main {
             &:hover {
                 transform: scale(1.1);
                 background-color: var(--color-cyan);
-            }
-
-            & .link-game {
-                text-decoration: none;
-                color: black;
             }
         }
     }
