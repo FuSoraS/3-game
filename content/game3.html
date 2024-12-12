@@ -11,15 +11,16 @@
 <body>
         
     <div class="main-container">
-        <img class="logo-interrogante" src="../img/img-game3/interrogante.png">
+        <img class="logo-question" src="../img/img-game3/interrogante.png">
         <h2 class="titulo">Adivina el número</h2>
-        <input type="text" placeholder="número" id="input1" class="input">
-        <h3 class="subtitle-tip">Consejos:</h3>
-        <img class="img-inferior" src="../img/img-game3/pregunta.png" alt="Pregunta"> 
-        <img class="img-inferior2" src="../img/img-game3/oms.png" alt="Pensar"> 
-        <p class="paragraph-tip" id="tip">El número esta entre el 0 y 100</p>
+        <div class="center-container">
+            <img class="main-container__image" src="../img/img-game3/oms.png" alt="Pensar"> 
+            <input type="text" placeholder="número" id="input1" class="input">
+            <img class="main-container__image" src="../img/img-game3/pregunta.png" alt="Pregunta"> 
+        </div>
         <button id="submit" class="button-submit button">Enviar</button>
-
+        <h3 class="subtitle-tip">Ayuda:</h3>
+        <p class="paragraph-tip" id="tip">El número esta entre el 0 y 100</p>
         <h3 class="subtitle-try">intentos:</h3>
         <span class="number-try" id="tryNumber">0</span>
     </div>
