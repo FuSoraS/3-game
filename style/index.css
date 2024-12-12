@@ -1,9 +1,9 @@
 header {
     display: flex;
     margin: 15px 0 0 20px;
+    align-items: center;
 
-    & .header-title {
-        display: inline;
+    & .header__title {
         margin-left: 10px;
     }
 }
