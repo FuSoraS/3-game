@@ -1,4 +1,6 @@
-
+.title__remember {
+    margin: 20px 0;
+}
 .container-image {
     display: flex;
     justify-content: center;
@@ -74,5 +76,6 @@
 }
 
 .time-remaining {
+    margin-top: 40px;
     text-align: center;
 }
