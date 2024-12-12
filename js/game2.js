@@ -1,7 +1,12 @@
 function showName(){
     // show of name player
     const name = document.getElementById("input-name").value;
-    document.getElementById('show').innerText= "El Jugador se llama: "+name;
+    if(name != null){
+        const error = document.getElementById('error');
+        error.textContent = 'hola';
+    }else{
+        document.getElementById('show').innerText= "El Jugador se llama: "+name;
+    }
 }
 const result = document.getElementById('result');
 
