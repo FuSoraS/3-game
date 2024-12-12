@@ -10,9 +10,10 @@
         margin: 0 120px;
         padding: 10px;
         border-radius: 10px;
+        @media (max-width: 700px){margin: 0 20px;}
     }
 
-    & .titulo{
+    & .main-container__titulo{
         text-align: center;
     }
     & .center-container {
@@ -27,10 +28,12 @@
     & .subtitle-tip {
         margin: 50px 0 20px 0;
     }
-    & .button-submit {
-        margin-top: 20px;
+    & .button-send {
+        background-color: var(--color-cyan);
+        padding: 7px 20px;
+        border-radius: 20px;
         width: 100px;
-        border: 1px solid black;
+        border: 2px solid black;
         transition: transform 0.3s ease;
 
         &:hover {
