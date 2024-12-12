@@ -3,7 +3,7 @@ function showName(){
     const name = document.getElementById("input-name").value;
     if(name != null){
         const error = document.getElementById('error');
-        error.textContent = 'hola';
+        error.textContent = 'Su nombre está vacío';
     }else{
         document.getElementById('show').innerText= "El Jugador se llama: "+name;
     }
