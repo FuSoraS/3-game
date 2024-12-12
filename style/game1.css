@@ -17,16 +17,21 @@
     justify-content: center;
 
     & .paragraph {
+        text-align: left;
         width: 600px;
+        margin-bottom: 30px;
+        text-wrap: pretty;
     }
 }
 
 .main{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
     & .button-level__link {
         text-decoration: none;
+        padding: 20px 10px;
         color: #000;
         width: 200px;
         margin: 20px 10px;
