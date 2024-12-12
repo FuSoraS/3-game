@@ -9,17 +9,18 @@
 </head>
 <body>
     <div class="container">
-        <h2 class="title">Ingrese su Nombre</h2>
-        <label class="label-name" for="jd">Nombre: </label>
-        <span id="error"></span>
-        <input class="input-name" type="text" id="input-name" placeholder="Ingrese su nombre">
-        <button class="btn-save" onclick="showName()"> Guardar</button>
-        <br>
-        <div class="player" id="show"></div>
-        <br>
-        <img class="img-right" src="../img/img-game2/foto-costado1.png">
-        <img class="img-left" src="../img/img-game2/foto-costado2.png">
-        
+        <div class="container__top">
+            <h2 class="title title-name">Ingrese su Nombre</h2>
+            <label class="label-name" for="jd">Nombre: </label>
+            <input class="input-name" type="text" id="input-name" placeholder="Ingrese su nombre">
+            <span id="error"></span>
+            <button class="btn-save" onclick="showName()"> Guardar</button>
+        </div>
+        <div class="container__center">
+            <img class="img-right" src="../img/img-game2/foto-costado1.png">
+            <div class="player" id="show"></div>
+            <img class="img-left" src="../img/img-game2/foto-costado2.png">
+        </div>
     </div>
     <div class="container-second">
         <H2 class="title-second">Juegos</H2>

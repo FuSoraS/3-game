@@ -1,11 +1,15 @@
 function showName(){
     // show of name player
     const name = document.getElementById("input-name").value;
-    if(name != null){
-        const error = document.getElementById('error');
+    let error = document.getElementById('error');
+    let showText = document.getElementById('show');
+
+    if(name === ''){
         error.textContent = 'Su nombre está vacío';
+        showText.textContent = ''
     }else{
-        document.getElementById('show').innerText= "El Jugador se llama: "+name;
+        error.textContent = '';
+        showText.innerText= `El Jugador se llama: ${name}`;
     }
 }
 const result = document.getElementById('result');

@@ -1,28 +1,40 @@
 .container{
     margin-top: 100px;
-    display: grid;
     justify-items: center;
     justify-content: center;
 
-    & .title{
-        grid-column: 2;
-        grid-row: 1;
+    & .container__top {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 300px;
+        justify-content: center;
+        gap: 20px;
+        & .label-name {
+            margin: 0 120px;
+        }
+        & #error {
+            color: #f00;
+            margin: 0 110px;
+        }
     }
-    & .label-name{
-        grid-column: 2;
-        grid-row: 2;
-        margin: 10px;
+    & .container__center {
+        display: inline-flex;
+        align-items: center;
+        flex-wrap: wrap;
+        & #show {
+            display: inline-block;
+            text-align: center;
+            width: 300px;
+            margin: 20px;
+        }
     }
     & .input-name{
-        grid-column: 2;
-        grid-row: 3;
         padding: 5px 3px;
         border-radius: 7px;
     }
     & .btn-save{
         background-color: #52D8D1;
         font-weight: bold;
-        grid-column: 2;
         margin-top: 10px;
         width: 100px;
         border-radius: 100px;
@@ -34,30 +46,15 @@
             transform: scale(1.1);
         }
     }
-    & .player{
-        grid-column: 2;
-        grid-row: 5;
-        margin: 20px;
-    }
-    & .img-right{
-        grid-column: 3;
-        grid-row: 5;
-    }
-    & .img-left{
-        grid-column: 1;
-        grid-row: 5;
-    }
 }
 
 .container-second{
-    display: grid;
     justify-items: center;
     justify-content: center;
     margin: 20px;
     
     & .title-second{
-        grid-column: 2;
-        grid-row: 1;
+        margin: 0;
     }
     & .btn-choose {
         width: 70px;
@@ -65,19 +62,13 @@
         margin: 10px;
     }
     & .piedra{
-        grid-column: 1;
-        grid-row: 2;
         background-image: url('../img/img-game2/stone.png');
 
     }
     & .papel{
-        grid-column: 2;
-        grid-row: 2;
         background-image: url('../img/img-game2/paper.png');
     }
     & .tijera{
-        grid-column: 3;
-        grid-row: 2;
         background-image: url('../img/img-game2/scissor.png');
     }
 }
@@ -89,7 +80,6 @@
     text-align: center;
 
     & .img-fondo{
-        grid-column: 2;
-        grid-row: 4;
+        margin: 0;
     }
 }
