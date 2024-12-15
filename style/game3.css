@@ -7,10 +7,10 @@
     }
     & .input {
         align-items: center;
-        margin: 0 120px;
+        margin: 0 110px;
         padding: 10px;
         border-radius: 10px;
-        @media (max-width: 700px){margin: 0 20px;}
+        @media (max-width: 700px){margin: 20px 50px;}
     }
 
     & .main-container__titulo{
@@ -20,6 +20,7 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        justify-content: center;
     }
     & .main-container__image {
         width: 100px;
@@ -32,8 +33,9 @@
         background-color: var(--color-cyan);
         padding: 7px 20px;
         border-radius: 20px;
+        font-weight: bold;
         width: 100px;
-        border: 2px solid black;
+        border: 1px solid black;
         transition: transform 0.3s ease;
 
         &:hover {
