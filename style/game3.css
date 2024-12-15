@@ -3,7 +3,9 @@
     justify-items: center;
 
     & .logo-question {
+        width: 64px;
         margin-bottom: 40px;
+        aspect-ratio: 64/64;
     }
     & .input {
         align-items: center;
@@ -24,6 +26,7 @@
     }
     & .main-container__image {
         width: 100px;
+        aspect-ratio: 64/ 64;
     }
 
     & .subtitle-tip {

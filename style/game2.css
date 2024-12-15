@@ -20,7 +20,13 @@
     & .container__center {
         display: inline-flex;
         align-items: center;
+        justify-content: center;
         flex-wrap: wrap;
+
+        & .container__center-img{
+            aspect-ratio: 128 / 128; 
+            width: 128px;
+        }
         & #show {
             display: inline-block;
             text-align: center;
@@ -47,15 +53,16 @@
         }
     }
 }
-
-.container-second{
-    justify-items: center;
+.title-games {
+    text-align: center;
+}
+.container-game{
+    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 20px;
     
-    & .title-second{
-        margin: 0;
-    }
+
     & .btn-choose {
         width: 70px;
         height: 70px;
@@ -80,6 +87,7 @@
     text-align: center;
 
     & .img-fondo{
-        margin: 0;
+        width: 256px;
+        aspect-ratio: 256 / 256;
     }
 }

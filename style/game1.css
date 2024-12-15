@@ -4,6 +4,7 @@
 .container-image {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
     & .title {
         margin-left: 20px;
@@ -60,16 +61,28 @@
     & .container-image-show {
         display: flex;
         justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
     & .input-answer {
-        height: 20px;
-        width: 50px;
+        width: 15px;
+        border-radius: 15px;
+        padding: 5px 15px;
+        margin: 10px;
     }
 }
 .container-button {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+
+    & .button-answer{
+        transition: transform 0.3s ease;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
 }
 .disappear {
     display: none;

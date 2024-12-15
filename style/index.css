@@ -3,6 +3,10 @@ header {
     margin: 15px 0 0 20px;
     align-items: center;
 
+    & img{
+        width: 64px;
+        aspect-ratio: 64/64;
+    }
     & .header__title {
         margin-left: 10px;
     }
