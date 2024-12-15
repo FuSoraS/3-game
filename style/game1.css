@@ -22,7 +22,7 @@
     & .paragraph {
         text-align: left;
         width: 600px;
-        margin-bottom: 30px;
+        margin: 0 20px 30px 20px;
         text-wrap: pretty;
     }
 }
