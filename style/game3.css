@@ -33,7 +33,7 @@
         margin: 50px 0 20px 0;
     }
     & .button-send {
-        background-color: var(--color-cyan);
+        background-color: var(--cyan);
         padding: 7px 20px;
         border-radius: 20px;
         font-weight: bold;

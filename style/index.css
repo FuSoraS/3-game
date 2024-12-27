@@ -31,14 +31,14 @@ main {
             width: 200px;
             height: 100px;
             display: inline;
-            background-color: #52D8D3;
+            background-color: var(--cyan);
             align-content: center;
             transition: transform 0.3s ease;
             border-radius: 10px;
             box-shadow: 5px 5px 10px;
             &:hover {
                 transform: scale(1.1);
-                background-color: var(--color-cyan);
+                background-color: var(--cyan);
             }
         }
     }

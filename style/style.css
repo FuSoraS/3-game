@@ -1,14 +1,15 @@
 :root {
-    --color-cyan: #52D8D3;
-    --color-light-cyan: #B2F6F3;
+    --cyan: #52D8D3;
+    --light-cyan: #B2F6F3;
+    --while: #F2F2EC;
 }
 body {
     margin: 0;
     font-family: sans-serif;
-    background-color: #F2F2EC;
+    background-color: var(--while);
 }
 .button {
-    background-color: var(--color-cyan);
+    background-color: var(--cyan);
     padding: 10px 20px;
     border-radius: 100px;
 }
