@@ -21,7 +21,7 @@ function showResult(status, choiceMachine){
         result.innerText = `${status}, el contrario elegio ${choiceMachine}`;
     }
 }
-// generate a number ramdom for choose the winner
+// Generate a number random for choose the winner
 function chooseOption(choose){
     numRandom = Math.floor(Math.random() * 3) + 1;
     if(choose === 'rock'){
