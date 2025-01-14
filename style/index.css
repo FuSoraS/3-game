@@ -8,7 +8,11 @@ header {
         aspect-ratio: 64/64;
     }
     & .header__title {
-        margin-left: 10px;
+        font-size: 2em;
+        margin-left: 15px;
+        background: linear-gradient(to right, #b91d97, #3352ff);
+        color: transparent;
+        background-clip: text;
     }
 }
 main {
