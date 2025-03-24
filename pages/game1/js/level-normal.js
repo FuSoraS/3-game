@@ -14,28 +14,28 @@ if (numRandom === 1){
     zombie2 = 2;
     zombie3 = 1;
     zombie4 = 4;
-    imageZombie1.src = "../../img/img-game1/zombie-3.png";
-    imageZombie2.src = "../../img/img-game1/zombie-2.png";
-    imageZombie3.src = "../../img/img-game1/zombie-1.png";
-    imageZombie4.src = "../../img/img-game1/zombie-4.png";
+    imageZombie1.src = "../image/zombie-3.png";
+    imageZombie2.src = "../image/zombie-2.png";
+    imageZombie3.src = "../image/zombie-1.png";
+    imageZombie4.src = "../image/zombie-4.png";
 }else if (numRandom === 2){
     zombie1 = 2;
     zombie2 = 4;
     zombie3 = 3;
     zombie4 = 1;
-    imageZombie1.src = "../../img/img-game1/zombie-4.png";
-    imageZombie2.src = "../../img/img-game1/zombie-1.png";
-    imageZombie3.src = "../../img/img-game1/zombie-3.png";
-    imageZombie4.src = "../../img/img-game1/zombie-2.png";
+    imageZombie1.src = "../image/zombie-4.png";
+    imageZombie2.src = "../image/zombie-1.png";
+    imageZombie3.src = "../image/zombie-3.png";
+    imageZombie4.src = "../image/zombie-2.png";
 }else if (numRandom === 3) {
     zombie1 = 1;
     zombie2 = 3;
     zombie3 = 4;
     zombie4 = 2;
-    imageZombie1.src = "../../img/img-game1/zombie-1.png";
-    imageZombie2.src = "../../img/img-game1/zombie-4.png";
-    imageZombie3.src = "../../img/img-game1/zombie-2.png";
-    imageZombie4.src = "../../img/img-game1/zombie-3.png";
+    imageZombie1.src = "../image/zombie-1.png";
+    imageZombie2.src = "../image/zombie-4.png";
+    imageZombie3.src = "../image/zombie-2.png";
+    imageZombie4.src = "../image/zombie-3.png";
 }
 
 // Recibir las respuestas

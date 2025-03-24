@@ -69,14 +69,14 @@
         margin: 10px;
     }
     & .piedra{
-        background-image: url('../img/img-game2/stone.png');
+        background-image: url('../image/stone.png');
 
     }
     & .papel{
-        background-image: url('../img/img-game2/paper.png');
+        background-image: url('../image/paper.png');
     }
     & .tijera{
-        background-image: url('../img/img-game2/scissor.png');
+        background-image: url('../image/scissor.png');
     }
 }
 .definir{
