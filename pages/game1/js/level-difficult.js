@@ -1,4 +1,4 @@
-import { imageZombie1, imageZombie2, imageZombie3, imageZombie4, imageZombie5 } from "../../../js/Zombie.js";
+import { imageZombie1, imageZombie2, imageZombie3, imageZombie4, imageZombie5 } from "../../../js/Zombies.js";
 import { timer, numRandom } from "../../../js/Utils.js";
 
 let zombie1, zombie2, zombie3, zombie4, zombie5;
