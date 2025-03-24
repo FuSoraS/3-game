@@ -1,7 +1,7 @@
 # Página con 3 juegos básicos
-Un juego de memorizar imágenes, un juego de adivinar un número aleatorio y el juego de piedra, papel y tijera.
+A game of Memorizer, Guess a number and the game rock, paper, scissors.
 
-Hecho junto a depurator21Js [GitHub](https://github.com/depurator21Js)
+Made together to depurator21Js [GitHub](https://github.com/depurator21Js)
 
 # How to Run 🚀
 Clone this repository: 
