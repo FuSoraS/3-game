@@ -1,14 +1,6 @@
-// Seleccionando el temporizador que es un parrafo
-const timer = document.getElementById("timer");
-// Seleccionando imagen
-const imageZombie1 = document.getElementById("image-zombie1");
-const imageZombie2 = document.getElementById("image-zombie2");
-const imageZombie3 = document.getElementById("image-zombie3");
-const imageZombie4 = document.getElementById("image-zombie4");
-const imageZombie5 = document.getElementById("image-zombie5");
+import { imageZombie1, imageZombie2, imageZombie3, imageZombie4, imageZombie5 } from "../../../js/Zombie.js";
+import { timer, numRandom } from "../../../js/Utils.js";
 
-// Agrega aleatoridad a las imagenes que aparecen
-const numRandom = Math.floor(Math.random() * 3) + 1;
 let zombie1, zombie2, zombie3, zombie4, zombie5;
 if (numRandom === 1){
     zombie1 = 3, zombie2 = 2, zombie3 = 1, zombie4 = 4, zombie5 = 5;
@@ -105,7 +97,7 @@ let timer30 = setInterval(() => {
     timeNevelEasy--
     if (timeNevelEasy < 0){
         clearInterval(timer30)
-        const image = document.querySelector(".container-image").classList.toggle("disappear");
-        const answer = document.querySelector(".answer").classList.toggle("answer-show")
+        document.querySelector(".container-image").classList.toggle("disappear");
+        document.querySelector(".answer").classList.toggle("answer-show")
     }
 }, 1000);
